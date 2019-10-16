@@ -13,7 +13,8 @@ public class ShapesTest extends GraphicsApp {
     private static final Color BACKGROUND_COLOR = Colors.WHITE;
 
     /*
-     * This method is called once when the program is started.
+     * Die initialize-Methode wird einmalig zum Start des Programms
+     * aufgerufen.
      */
 
     @Override
@@ -32,7 +33,8 @@ public class ShapesTest extends GraphicsApp {
     }
 
     /*
-     * This method is called repeatedly while the program is running.
+     * Die draw-Methode wird so lange wiederholt aufgerufen, bis das Programm
+     * beendet wird.
      */
 
     @Override
